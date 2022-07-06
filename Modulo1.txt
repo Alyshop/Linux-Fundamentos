@@ -8,7 +8,9 @@ help = usado como parametro para solicitar detalhes mais resumidos que o
 su = você se torna um super usuario, porem você pode escolher o usuario que
 	quer se tornar. su kennedy ou su raiane
 
-apt = 	linha de comando para gerenciar pacontes, seus parâmetros são usados para instalar, procurar e remover, atualiza pacontes instalados (programas 	 entre outros) o apt update atualiza os repositores verificando se há 	alguma versão mais recente e o apr upgrade instala essa atualização
+apt = 	linha de comando para gerenciar pacotes, seus parâmetros são usados para instalar, procurar e remover, atualiza pacontes instalados (programas 	 entre outros) 
+apt update = atualiza os repositores verificando se há alguma versão mais recente
+apt upgrade = instala essa atualização
 
 sudo =  permite que faça certas operação como se fosse o root mas sem ser o root
 comando para se tornar super usuario assim podendo usar o sudo: usermod -aG sudo nome_de_usuario

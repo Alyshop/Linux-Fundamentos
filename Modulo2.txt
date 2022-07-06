@@ -1,0 +1,30 @@
+*****************Gerenciando processos com PS e TOP************************************
+
+PS - LISTAR PROCESSOS (O comando "ps" permite listar os processos atuais de um sistema. Ele geralmente é acompanhado pelos parametros "-a" que mostra os processos de todos os usuarios
+"-u" exibe uma lista detalhada contendo o usuario dono do processo , "x" exibe processos que não estejam associados ao terminal de comandos.
+
+ps = listar processos (quando executamos somente o comando ps ele tras somente os processos que o terminal está envolvido)
+
+ps -a (lista processos que pertecem a outro usuario) 
+
+ps -au (lista mais processos mas ainda não todos)
+
+ps -aux (lista todos os processos rodando na maquina)
+
+
+TOP - MONITOR DE PROCESSOS (O comando "top" não é apenas um monitor de processos, ele permite obter informações importante, como o total de processos em andamento, seu estado no momento(executando, em espera parados e zombies) 
+
+top = monitor de processos (ele vai ficar rodando até que eu finalize o comando top)
+
+
+*OBS* para sair do comando top(digite Q (quit))
+
+
+*********************MATANDO PROCESSOS COM KILL***********************
+
+kill + id do processo (mata o processo)
+
+kill -SIGTOP + id do processo (ele vai pausar o processo)
+
+kill -SIGCONT + id do processo (ele vai retomar/continuar o processo)
+
