@@ -9,7 +9,7 @@ ps -a (lista processos que pertecem a outro usuario)
 
 ps -au (lista mais processos mas ainda não todos)
 
-ps -aux (lista todos os processos rodando na maquina)
+ps -aux | grep + nome do programa a ser pesquisado (lista todos os processos rodando na maquina)
 
 
 TOP - MONITOR DE PROCESSOS (O comando "top" não é apenas um monitor de processos, ele permite obter informações importante, como o total de processos em andamento, seu estado no momento(executando, em espera parados e zombies) 
@@ -28,3 +28,58 @@ kill -SIGTOP + id do processo (ele vai pausar o processo)
 
 kill -SIGCONT + id do processo (ele vai retomar/continuar o processo)
 
+killall + nome do programa (exemplo apache2) (precisa de permissão do super usuario) (vai destruir a arvore inteira ligada ao apache2)
+
+
+*********************PROCESSOS EM BACKGROUND E SCREEN***********************
+
+EXEMPLO;
+
+gnome-chess (ele vai abrir o xadrez, porem vai ficar atrelado ao Terminal até que feche o app)
+
+gnome-chess & (o & faz com que a execução do app não fique atrelado ao terminal e devolve o ID do processo)
+
+screen -S + nome do terminal virtual (esse comando faz com que você tenha um terminal virtual podendo fechar o terminal e não fechando os app)
+
+screen -ls (mostra todos os terminais disponiveis no momento)
+
+screen -r + nome do terminal que deseja acessar(acessar o terminal em questão)
+
+exit (para fechar o terminal)
+
+*********************ACESSANDO HOSTS REMOTOS COM SSH***********************
+
+ssh alysson.alves@IP da maquina virtual que iremos acessar
+
+
+
+
+*********************INTRODUÇÃO AO VIM***********************
+
+vi arquivo.txt (vai criar um arquivo VIM e se houver o arquivo existente ele exibi o arquivo) 
+
+PARA SAIR salvando o arquivo = :q 
+
+PARA SAIR sem salvar = :q!
+
+*********************VI - MODO DE COMANDO E MODO DE EDIÇÃO***********************
+
+vi arquivo.txt (estamos no modo de comando, pois quando digitamos algo ele sobreescreve na ultima linha)
+
+vi arquivo.txt +i (entra no modo ediçãoade)
+
+ESC para sair do modo edição
+
+
+
+*********************VI - NUMERAÇÃO DE LINHAS E NAVEGAÇÃO**********************************************
+
+sudo vi /var/log/syslog = (exemplo de arquivos com bastante linhas para analise)
+
+:set nu = (vai numerar as linhas )
+
+:505 = (irá mover para a linha digita, 505 foi a de exemplo)
+
+*********************VI - SALVAR ARQUIVO NO VIM**********************************************
+
+:w = (irá salvar as alterações feitas no arquivo)
