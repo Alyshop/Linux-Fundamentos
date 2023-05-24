@@ -158,10 +158,3 @@ nmap -> (verificar se esta instalado $sudo apt install nmap) é uma ferramenta d
 
 apache -> (verificar se esta instalado $sudo apt install apache2) e um servidor web
 
-
-
-
-
- 
-
-  

@@ -1,0 +1,17 @@
+Dia 2 = Estrutura dos diretorios do LINUX e o FHS
+
+/bin = Binarios executaveis que podem ser utilizados por qualquer usuario do sistema
+/sbin = Binarios utilizados por admin do sistema 
+/boot = Arquivos relacionados a inicializacao do sistema, ou seja, o processo de boot do Linux
+/dev = Local onde fica localizado os dispositivos, como HD, prendrive etc...
+/etc = Arquivos de configura;'ao que podem ser usados por todos os softwares, alem de scripts especiais para iniciar ou interromper modulos e programas
+/home = Onde ficam os arquivos pessoais, como documentos de cada usuario 
+/lib = Bibliotecas usadas pelos comandos presentes em /bin e /sbin 
+/media e /mnt = Ponto de montagem para dispositivos. EX: prendrive
+/proc = Nesse diretorio sao encontrados arquivos que revelam informacoes sobre os recursos e processos em execucao no sistema
+/svr = Dados de servodres e servicos que ficam em execucao no computador ficam armazenados dentro desses diretorio
+/usr = Reune executaveis, Bibliotecas, e ate documentacao de softwares usados pelos usuarios ou adm do sistema
+/var = Todos arquivos que aumenta de tamanho ao longo do tempo esta no diretorio de arquivos variaveis
+/tmp = arquivos e diretorios criados temporariamente
+/root = Diretorio home do root
+/opt = Aplicativos adicionais, que nao sao essenciais para o sistema, terminam neste diretorio 
