@@ -1,0 +1,30 @@
+
+Computador-1 
+
+IP : 192.168.68.0-255               =    Endereco da Maquina
+Netmask : 255.255.255.0             =    Determina qual parte do enderecamento e referente a rede / host 
+Network : 192.168.68                =    Endereco da Minha Rede 
+Broadcast : 192.168.68              =    Representa toda a Rede / Onde a Rede se comunica entre elas 
+Gateway : 192.168.68                =    Responsavel por navegar/transportar por outras redes 
+
+
+******* Modelo OSI ********
+
+Camada 1 = FISICA (Placa de Rede, Bluetooth, Wi-Fi)
+Camada 2 = ENLACE (Switch, Eterneth, Token)
+Camada 3 = REDE (Roteador, SW layer 3 , IP , IPX)
+Camada 4 = TRANSPORTE (TCP , UDP , SCTP , DCCP...)
+Camada 5 = SESSAO (NetBIOS)
+Camada 6 = APRESENTACAO (TLS)
+Camada 7 = APLICACAO (HTTP, RTP, SMTP, FTP, SSH, DNS, POP3)
+
+
+subnetcalc + IP = realiza o calculo binario 
+
+**** Comandos Troubleshotting ****
+
+Tres comandos para iniciar um Troubleshotting
+
+df -h 
+free 
+top 

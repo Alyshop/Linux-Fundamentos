@@ -1,0 +1,8 @@
+
+Computador-1 
+
+IP : 192.168.68.0-255               =    Endereco da Maquina
+Netmask : 255.255.255.0             =    Determina qual parte do enderecamento e referente a rede / host 
+Network : 192.168.68                =    Endereco da Minha Rede 
+Broadcast : 192.168.68              =    Representa toda a Rede 
+Gateway : 192.168.68                =    Responsavel por navegar/transportar por outras redes 

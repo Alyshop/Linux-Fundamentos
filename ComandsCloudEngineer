@@ -1,0 +1,34 @@
+Commands that Cloud Engineers should know 
+
+ls = list segments 
+pwd = Print Working Directory
+cd = Change Directory 
+mkdir = Make Directory 
+rm = Remove 
+touch = Touch 
+cp = Copy 
+mv = Move 
+cat = Concatenate/ReadFile
+less = Less 
+head = Head 
+tail = Tail 
+grep = Global Regular Expression Print 
+find = Find/Search 
+man = Manual 
+sudo = SuperUser Do 
+df = Disk Filesystem 
+du = Disk Usage 
+ps = Process Status 
+kill = Kill / Kill Process 
+tar = Tape Archive 
+chmod = Change Mode 
+chown = Change Owner 
+ssh = Secure Shell 
+wget = World Wide Web Get 
+curl = Client URL 
+top = Table of Processes 
+alias = Alias 
+echo = Echo
+exit = Exit 
+
+bash -x = modo debug
